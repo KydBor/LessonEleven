@@ -41,11 +41,9 @@ public class Car {
         this.price = price;
     }
 
-    public void turnOnCar() {
 
-    }
 
-    public void generateRandomValue() throws MyOwnException {
+    public void turnOnCar() throws MyOwnException {
         Random random = new Random();
         int randomValue = random.nextInt(21);
         isHonest(randomValue);

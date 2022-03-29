@@ -1,5 +1,5 @@
 package Home;
 
-public class MyOwnException extends Exception{
+public class MyOwnException extends Exception {
 
 }

@@ -5,17 +5,17 @@ public class Main {
         Car car = new Car("Lada", 700, 100);
         try{
             car.turnOnCar();
-        } catch (MyOwnException e) {
+        } catch (Exception e) {
             System.out.println("Error");
         }
         try{
             car.turnOnCar();
-        } catch (MyOwnException e) {
+        } catch (Exception e) {
             System.out.println("Error");
         }
         try{
             car.turnOnCar();
-        } catch (MyOwnException e) {
+        } catch (Exception e) {
             System.out.println("Error");
         }
     }
